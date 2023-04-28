@@ -1,0 +1,51 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+
+    width: 100vw;
+    height: 100vh;
+   /* background-color: blue; */
+  
+}
+.display{
+
+    width: 100%;
+    height: 80%;
+    display: flex;
+    
+    
+    background-color: rgb(76, 212, 167);
+    padding: 50px;
+}
+.display>:nth-child(1){
+    box-sizing:content-box;
+    width: 35%;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.display>:nth-child(2){
+    box-sizing:border-box;
+    width: 55%;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+#main_form_div{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#data_field>form>label,input{
+    /* background-color: aqua; */
+    margin: 10px;
+    height: 30px;
+    font-size: 20px;
+    
+}
